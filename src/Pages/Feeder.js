@@ -22,7 +22,6 @@ function Feed() {
   const [photo, setPhoto] = useState("");
   const [video, setVideo] = useState("");
   const [article, setArticle] = useState("");
-  const [isLoad, setLoad] = useState(false);
   const [id, setID] = useState();
   const { loading, error, data } = useQuery(GET_FEED, {
     variables: { id: id}
