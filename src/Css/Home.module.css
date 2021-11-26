@@ -1,0 +1,64 @@
+.warnaHero {
+  width: auto;
+  height: 570px;
+  background-color: #34BE82;
+}
+
+:global(#basic-navbar-nav),
+:global(p),
+:global(Button) {
+  font-family: 'Montserrat',
+  sans-serif;
+}
+
+.textHero {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+
+.textArtikel {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.quotes {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.bgVideo {
+  width: auto;
+  height: 90vh;
+  background-color: #34BE82;
+}
+
+.textSlogan {
+  font-size: 20px;
+  color: white;
+}
+
+.imgHero {
+  width: 100%;
+}
+
+.imgFeature {
+  width: 110px;
+  height: 110px;
+}
+
+.borderNone {
+  border: none;
+}
+
+.playerWrapper {
+  position: relative;
+  padding-top: 56.25%
+    /* Player ratio: 100 / (1280 / 720) */
+}
+
+.reactPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

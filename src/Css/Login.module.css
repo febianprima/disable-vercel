@@ -1,0 +1,19 @@
+.page {
+    background-color: #34BE82;
+    forced-color-adjust: #34BE82;
+}
+
+.login {
+    background-color: #C2C9CC;
+    color: teal;
+}
+
+.loginButton {
+    background-color: green;
+    border-color: green;
+}
+
+.register {
+    background-color: lavender;
+    color: teal;
+}
